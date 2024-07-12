@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5em;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 0.5em;
+    padding: 3rem 9%;
+    background-color: rgba(0, 0, 0, .1);
+    filter: drop-shadow(10px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+#logo {
+    font-size: 3rem;
+    color: #7b4bb7;
+    font-weight: 800;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+#logo:hover {
+    transform: scale(1.1);
+}
+
+a {
+    transition: color .2s linear, border .2s linear;
+    text-decoration: none;
+    color: #3872b4;
+}
+
+a:hover {
+    border-bottom-color: transparent;
+}
+
+nav a {
+    font-size: 1.8rem;
+    color: #fff;
+    margin-left: 4rem;
+    font-weight: 500;
+    transition: 0.3s ease;
+    border-bottom: 3px solid transparent;
+}
+
+nav a:hover {
+    color: #7b4bb7;
+    border-bottom: 3px solid #7b4bb7;
+}
+
+main {
+    background-color: #ffffffee;
+    width: 70%;
+    height: 80%;
+    margin: 50px auto;
+    box-shadow: 2px 2px 5px #ccc;
+    padding: 15px;
+    border-radius: 1em;
+
+    transform: scale(1);
+    transition: all 0.5s ease-in-out;
+}
+
+main:hover {
+    transform: scale(1.1);
+    box-shadow: 1px 1px 10px #c1c1c1;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    justify-content: space-around;
+}
+
+li {
+    display: inline-block;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+h3 {
+    left: 65%;
+    top: 6em;
+}
+
+p {
+    text-indent: 1em;
+    margin-top: 3em;
+}
+
+.textfield {
+    border: none;
+    background-color: #fff;
+    border-bottom: 2px solid #ccc;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.btn {
+    border: none;
+    color: #fff;
+    background-color: #93ca39;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color .3s ease-in-out;
+}
+
+.btn:hover {
+    background-color: #679d11;
+    cursor: pointer;
+}
+
+form {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 0.5em 0;
+    position: relative;
+    bottom: 0;
+    border-top: 3px solid gray;
+    width: 100%;
+}
