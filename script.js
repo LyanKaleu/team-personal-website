@@ -36,7 +36,7 @@ function updateMemberContent(memberId) {
             <img src="assets/profile-pic-ghe.jpg" alt="Foto do Membro 2">
             <h2>Gerson Reis</h2>
             <p>Sou estudante de <i>técnico em desenvolvimento de sistemas</i>, tenho uma paixão por tecnologia e jogos. Estou sempre em busca de conhecimentos e experiências na minha jornada.</p>
-            <a href="portfolio.html#member2">Veja o portfólio</a>
+            <a href="Portifolio - Gerson/index.html">Veja o portfólio</a>
         `;
     } else if (memberId === 'member3') {
         content = `

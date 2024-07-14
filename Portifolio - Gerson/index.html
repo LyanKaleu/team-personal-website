@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio Pessoal - Gerson</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="https://www.instagram.com/ghe.reis/" target="_blank">Instagram</a></li>
+                <li><a href="projetos.html">Projetos</a></li>
+                <li><a href="../index.html">Voltar</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="profile-image-container">
+            <img src="anime-black-and-white-isolated-icon-illustration-vector.jpg" alt="Foto de Gerson" class="profile-image">
+        </div>
+        <section id="sobre-mim">
+            <h2>Sobre Mim</h2>            
+            <p>Eu sou <span class="Gerson">Gerson</span> e tenho uma paixão por tecnologia e jogos. Estou sempre em busca de novas inovações e experiências no mundo digital.</p>
+        </section>
+        <section id="interesses">
+            <h2>Meus Interesses</h2>
+            <p>Eu gosto de <span class="explorar">explorar</span> as últimas tendências tecnológicas e passar meu tempo livre jogando e me conectando com outros entusiastas.</p>
+        </section>
+        <section id="habilidades">
+            <h2>Habilidades</h2>
+            <ul>
+                <li>Desenvolvimento Web</li>
+                <li>Design de Interface</li>
+                <li>Gestão de Projetos</li>
+                <li>Resolução de Problemas</li>
+                <li>Trabalho em Equipe</li>
+            </ul>
+        </section>
+        <section id="tecnologias">
+            <h2>Tecnologias que eu Trabalho</h2>
+            <div class="image-container">
+                <img src="csharp.jpg" alt="C#" class="tech-image">
+                <p>C#</p>
+            </div>
+            <div class="image-container">
+                <img src="python.jpg" alt="Python" class="tech-image">
+                <p>Python</p>
+            </div>
+            <div class="image-container">
+                <img src="javascript.jpg" alt="JavaScript" class="tech-image">
+                <p>JavaScript</p>
+            </div>
+        </section>
+        <!-- Formulário de Feedback -->
+        <section id="feedback">
+            <h2>Feedback</h2>
+            <form action="submit_feedback.php" method="POST">
+                <label for="nome">Nome:</label><br>
+                <input type="text" id="nome" name="nome" required><br><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="mensagem">Mensagem:</label><br>
+                <textarea id="mensagem" name="mensagem" rows="4" required></textarea><br><br>
+
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+        <!-- Formulário de Busca de Vídeos do YouTube -->
+        <section id="busca-youtube">
+            <h2>Busca de Vídeos no YouTube</h2>
+            <form id="search-form">
+                <label for="search-query">Buscar vídeos:</label><br>
+                <input type="text" id="search-query" name="search-query" required><br><br>
+
+                <input type="submit" value="Buscar">
+            </form>
+            <div id="search-results"></div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Gerson</p>
+    </footer>
+    <div id="modal">
+        <span class="close">&times;</span>
+        <img id="modal-image" src="" alt="Imagem em Destaque">
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
