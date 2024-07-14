@@ -43,7 +43,7 @@ function updateMemberContent(memberId) {
             <img src="assets/profile-pic-pa.png" alt="Foto do Membro 3">
             <h2>Pedro Augusto</h2>
             <p>Sou estudante do curso <i>técnico em desenvolvimento de sistemas</i>, comecei a estudar programação há um ano com intuito de ingressar no mercado de trabalho em TI e estou sempre buscando aprender e se desenvolver profissionalmente.</p>
-            <a href="portfolio.html#member3">Veja o portfólio</a>
+            <a href="Portfolio - Pedro Augusto/portfolio.html">Veja o portfólio</a>
         `;
     }
 
